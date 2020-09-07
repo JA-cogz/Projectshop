@@ -1,0 +1,8 @@
+﻿@model SmartShop.Models.Registration
+
+@{
+    ViewBag.Title = "Welcome" + @Html.DisplayFor(model => model.FirstName);
+}
+<br />
+<h2 style="color : red">@ViewData["Success"]</h2>
+
